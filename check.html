@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>email nd phone no. check</title>
+	<style>
+
+		body
+		{  
+
+						margin: 100px;
+			background-color: #BEEFF9;
+			text-align: center;
+		}
+	</style>
+	<img class="logo" src="https://i.ibb.co/G25qN6X/logo1.jpg">
+	<script type="text/javascript">
+		function email()
+{
+	var name=document.getElementById("name").value;
+	var t = name.endsWith("@gmail.com");
+	var p = name.endsWith("@outlook.com");
+	var h = name.endsWith("@yahoo.com");
+	if(t == true|p == true|h == true)
+		alert("Valid email id ");
+	else
+		alert("Invalid email id Enter a valid Email id");
+}
+
+function phone()
+{
+	var no=document.getElementById("nt").value;
+	var a= parseInt(no);
+	var i=0;
+	while(a >> 0)
+	{
+		a /= 10;
+		i = i+1;
+	}
+	if(i===10)
+		alert("Valid phone no. ");
+	else
+		alert("Invalid phone no. Enter a valid Phone number");
+}
+	</script>
+</head>
+<body>
+<h2>
+	<u>Log In</u>
+</h2>
+<br>
+Email id :
+<input type="text" id="name">
+<button onclick="email()">Submit</button>
+<br>
+<br>
+<br>
+<div style="margin-left: 40px"></div>
+<br>
+<br>
+Ph no. :
+<input type="name" id="nt">
+<button onclick="phone()">Submit</button>
+<br>
+<br>
+<a href="C:\Users\LAKSHMANA RAO\Desktop\techbitepage1.html" class="btn login">Log in</a>
+<h2>Latest Technology updates will be mailed!!:)</h2>
+<script src="C:\Users\Sai_HelloWorld\Desktop\check.js" ></script> 
+</body>
+</html>

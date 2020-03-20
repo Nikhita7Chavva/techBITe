@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  font-family: "Comic Sans MS";
+}
+a{
+  text-decoration:none;
+}
+
+.container{
+width:1170px;
+  padding-left:15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.top-layer{
+  padding-top: 180px;
+  padding-bottom:100px;
+  color:white;
+  background-image: url(https://i.ibb.co/jwG20XW/nn.jpg);
+  background-size: 1600px 700px;
+}
+
+.top-layer h1{
+  opacity:0.9;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom:10px;
+  text-align:right;
+}
+.top-layer p{
+opacity:0.5;
+margin-bottom:5px;
+  text-align:right;
+}
+.btn{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.lang{
+  background-color:#ffdd99;
+  margin-right: 10px;
+}
+
+
+.tech{
+  background-color:#ffdd99; 
+}
+
+.login{
+  background-color:#ffdd99; 
+}
+
+
+.btn-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+
+header{
+  height:100px;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+.logo{
+  height: 90px;
+  width:500px;
+  margin-top:10px;
+}
